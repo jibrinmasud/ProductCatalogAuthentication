@@ -1,0 +1,383 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\VP\\Desktop\\ProductMicroservices\\ProductAPI.AuthenticationSolution\\AuthenticationApi.Presentation\\AuthenticationApi.Presentation.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\VP\\Desktop\\ProductMicroservices\\ProdcutMicroservicesCatalog.SharedLibrary\\ProductCatalog.SharedLibrary\\ProductCatalog.SharedLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\VP\\Desktop\\ProductMicroservices\\ProdcutMicroservicesCatalog.SharedLibrary\\ProductCatalog.SharedLibrary\\ProductCatalog.SharedLibrary.csproj",
+        "projectName": "ProductCatalog.SharedLibrary",
+        "projectPath": "C:\\Users\\VP\\Desktop\\ProductMicroservices\\ProdcutMicroservicesCatalog.SharedLibrary\\ProductCatalog.SharedLibrary\\ProductCatalog.SharedLibrary.csproj",
+        "packagesPath": "C:\\Users\\VP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VP\\Desktop\\ProductMicroservices\\ProdcutMicroservicesCatalog.SharedLibrary\\ProductCatalog.SharedLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\VP\\Desktop\\ProductMicroservices\\ProductAPI.AuthenticationSolution\\AuthenticationApi.Application\\AuthenticationApi.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\VP\\Desktop\\ProductMicroservices\\ProductAPI.AuthenticationSolution\\AuthenticationApi.Application\\AuthenticationApi.Application.csproj",
+        "projectName": "AuthenticationApi.Application",
+        "projectPath": "C:\\Users\\VP\\Desktop\\ProductMicroservices\\ProductAPI.AuthenticationSolution\\AuthenticationApi.Application\\AuthenticationApi.Application.csproj",
+        "packagesPath": "C:\\Users\\VP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VP\\Desktop\\ProductMicroservices\\ProductAPI.AuthenticationSolution\\AuthenticationApi.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\VP\\Desktop\\ProductMicroservices\\ProdcutMicroservicesCatalog.SharedLibrary\\ProductCatalog.SharedLibrary\\ProductCatalog.SharedLibrary.csproj": {
+                "projectPath": "C:\\Users\\VP\\Desktop\\ProductMicroservices\\ProdcutMicroservicesCatalog.SharedLibrary\\ProductCatalog.SharedLibrary\\ProductCatalog.SharedLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\VP\\Desktop\\ProductMicroservices\\ProductAPI.AuthenticationSolution\\AuthenticationApi.Domain\\AuthenticationApi.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\VP\\Desktop\\ProductMicroservices\\ProductAPI.AuthenticationSolution\\AuthenticationApi.Domain\\AuthenticationApi.Domain.csproj",
+        "projectName": "AuthenticationApi.Domain",
+        "projectPath": "C:\\Users\\VP\\Desktop\\ProductMicroservices\\ProductAPI.AuthenticationSolution\\AuthenticationApi.Domain\\AuthenticationApi.Domain.csproj",
+        "packagesPath": "C:\\Users\\VP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VP\\Desktop\\ProductMicroservices\\ProductAPI.AuthenticationSolution\\AuthenticationApi.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\VP\\Desktop\\ProductMicroservices\\ProductAPI.AuthenticationSolution\\AuthenticationApi.Infrastructure\\AuthenticationApi.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\VP\\Desktop\\ProductMicroservices\\ProductAPI.AuthenticationSolution\\AuthenticationApi.Infrastructure\\AuthenticationApi.Infrastructure.csproj",
+        "projectName": "AuthenticationApi.Infrastructure",
+        "projectPath": "C:\\Users\\VP\\Desktop\\ProductMicroservices\\ProductAPI.AuthenticationSolution\\AuthenticationApi.Infrastructure\\AuthenticationApi.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\VP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VP\\Desktop\\ProductMicroservices\\ProductAPI.AuthenticationSolution\\AuthenticationApi.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\VP\\Desktop\\ProductMicroservices\\ProductAPI.AuthenticationSolution\\AuthenticationApi.Application\\AuthenticationApi.Application.csproj": {
+                "projectPath": "C:\\Users\\VP\\Desktop\\ProductMicroservices\\ProductAPI.AuthenticationSolution\\AuthenticationApi.Application\\AuthenticationApi.Application.csproj"
+              },
+              "C:\\Users\\VP\\Desktop\\ProductMicroservices\\ProductAPI.AuthenticationSolution\\AuthenticationApi.Domain\\AuthenticationApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\VP\\Desktop\\ProductMicroservices\\ProductAPI.AuthenticationSolution\\AuthenticationApi.Domain\\AuthenticationApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\VP\\Desktop\\ProductMicroservices\\ProductAPI.AuthenticationSolution\\AuthenticationApi.Presentation\\AuthenticationApi.Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\VP\\Desktop\\ProductMicroservices\\ProductAPI.AuthenticationSolution\\AuthenticationApi.Presentation\\AuthenticationApi.Presentation.csproj",
+        "projectName": "AuthenticationApi.Presentation",
+        "projectPath": "C:\\Users\\VP\\Desktop\\ProductMicroservices\\ProductAPI.AuthenticationSolution\\AuthenticationApi.Presentation\\AuthenticationApi.Presentation.csproj",
+        "packagesPath": "C:\\Users\\VP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VP\\Desktop\\ProductMicroservices\\ProductAPI.AuthenticationSolution\\AuthenticationApi.Presentation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\VP\\Desktop\\ProductMicroservices\\ProductAPI.AuthenticationSolution\\AuthenticationApi.Infrastructure\\AuthenticationApi.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\VP\\Desktop\\ProductMicroservices\\ProductAPI.AuthenticationSolution\\AuthenticationApi.Infrastructure\\AuthenticationApi.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
