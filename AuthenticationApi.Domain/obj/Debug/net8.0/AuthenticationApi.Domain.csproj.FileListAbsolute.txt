@@ -9,3 +9,4 @@ C:\Users\VP\Desktop\ProductMicroservices\ProductAPI.AuthenticationSolution\Authe
 C:\Users\VP\Desktop\ProductMicroservices\ProductAPI.AuthenticationSolution\AuthenticationApi.Domain\obj\Debug\net8.0\refint\AuthenticationApi.Domain.dll
 C:\Users\VP\Desktop\ProductMicroservices\ProductAPI.AuthenticationSolution\AuthenticationApi.Domain\obj\Debug\net8.0\AuthenticationApi.Domain.pdb
 C:\Users\VP\Desktop\ProductMicroservices\ProductAPI.AuthenticationSolution\AuthenticationApi.Domain\obj\Debug\net8.0\ref\AuthenticationApi.Domain.dll
+C:\Users\VP\Desktop\ProductMicroservices\ProductAPI.AuthenticationSolution\AuthenticationApi.Domain\obj\Debug\net8.0\AuthenticationApi.Domain.sourcelink.json
